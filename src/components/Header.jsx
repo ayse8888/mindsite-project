@@ -14,6 +14,11 @@ const Header = (props) => {
     );
   };
 
+  if ( window.location.pathname === "github" ){
+    window.location.href = "https://github.com/ayse8888/mindsite-project"
+  }
+
+  console.log("window", window.location.pathname)
   return(
     <header className="header">
         <div className="nav-links">
@@ -35,7 +40,7 @@ const Header = (props) => {
         </Link>
         </div>
         <div className="nav-links">
-          <Link to="/" className="github-link">GitHub</Link>
+          <Link to={{ pathname: "https://github.com/ayse8888/mindsite-project" }} target="_blank">GitHub</Link>
         </div>
     </header>
   )
