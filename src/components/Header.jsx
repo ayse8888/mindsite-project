@@ -14,11 +14,6 @@ const Header = (props) => {
     );
   };
 
-  if ( window.location.pathname === "github" ){
-    window.location.href = "https://github.com/ayse8888/mindsite-project"
-  }
-
-  console.log("window", window.location.pathname)
   return(
     <header className="header">
         <div className="nav-links">

@@ -53,7 +53,7 @@ const Cart = (props) => {
                 <div className="product-items-div">
                   <div>
                     <img 
-                      className="image" 
+                      className="cart-image" 
                       src={item.image} 
                       alt={item.name}
                     />
