@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C4146;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #c5c4c4;
+    padding: 1rem;
+  }
+  
+  .nav-links a:hover {
+    background-color: #070708;
+    text-decoration: none;
+    color: #FFFFF9;
+  }
+  
+  .catalog-link {
+    border-left: 1px solid #4d4d4d;
+  }
+  
+  .cart-link {
+    border-right: 1px solid #4d4d4d;
+    border-left: 1px solid #4d4d4d;
+  }
+  
+  .github-link {
+    border-left: 1px solid #4d4d4d;
+  }

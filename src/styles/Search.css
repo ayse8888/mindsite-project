@@ -1,0 +1,61 @@
+.form {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+  }
+  
+  .search-button {
+    width: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #777777;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .search-button:hover {
+    background-color: #4B5155;
+  }
+  
+  .products-container {
+    text-align: center;
+    padding: 2rem;
+    color: #c5c4c4;
+  }
+  
+  .search-items {
+    margin-bottom: 5rem;
+    -moz-asx-font-smoothing: grayscale;
+   backface-visibility: hidden;
+   transform: translateX(0);
+  }
+  
+  .search-items:hover {
+   transform: scale(1.05);
+   transition : transform 0.25s ease-out;
+  }
+  
+  .item-name {
+    margin-bottom: 0.5rem;
+  }
+  
+  .item-price {
+    margin-top: 0.5rem;
+  }
+  
+  .item-image {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #a7a5a5;
+    border-radius: 2px;
+  }
+  
