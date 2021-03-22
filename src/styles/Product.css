@@ -45,3 +45,18 @@
     margin-top: 0.3rem;
   }
   
+  @media only screen and (max-width: 290px) {
+    .button-div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .products {
+      padding: 1rem;
+    }
+    
+    .image {
+      width: 70px;
+      height: 50px;
+    }
+  }

@@ -78,7 +78,9 @@ const Cart = (props) => {
                       </button>
                     </div>
                   </div>
-                  <p>${item.price.toFixed(2)}</p>
+                  <div>
+                    <p>${item.price.toFixed(2)}</p>
+                  </div>
                   <div className="remove-div">
                     {cartItems.length !== 0 && (
                       <p>
