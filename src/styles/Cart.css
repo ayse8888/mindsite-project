@@ -194,6 +194,14 @@
       padding: 1rem 0;
     }
 
+    .product-items-div div {
+      margin-bottom: 1rem;
+    }
+
+    .item-list {
+      display: none;
+    }
+
     .total-price-div {
       padding: 0.5rem 3rem;
     }
